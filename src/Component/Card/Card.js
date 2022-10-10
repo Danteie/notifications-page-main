@@ -1,13 +1,16 @@
 import './Card.css'
+import React from 'react';
 
 
-export default function Card() {
+export default function Card({text,time}) {
+  
+
   return (
         <div className='card'>
-            <img alt='profil' />
+            <img alt='profile'/>
             <div>
-                <h2>text</h2>
-                <h2>time</h2>
+                <h1>{text}</h1>
+                <h1>{time}</h1>
             </div>
         </div>
     

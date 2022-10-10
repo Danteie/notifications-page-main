@@ -1,5 +1,5 @@
 import './App.css'
-import Card from './Component/Card/Card'
+import Cards from '../src/Component/Cards'
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
             </div>
             <h2 className='mark'>Mark all as read</h2>
           </header>
-          <Card />
+          <Cards />
         </div>
     </main>
   );
