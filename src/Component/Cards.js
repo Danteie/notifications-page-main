@@ -8,8 +8,16 @@ const Cards = () => {
         <div>
             {
                 notifications.map((notifications, i)=>{
+                  
+                        console.log(notifications.image);
+                    
                     return(
-                        <Card text={notifications.text} time={notifications.time}/>
+                        <Card 
+                        image={notifications.image} 
+                        name={notifications.name} 
+                        text={notifications.text} 
+                        time={notifications.time} 
+                        link={notifications.link}/>
                     )
                 })
             }
