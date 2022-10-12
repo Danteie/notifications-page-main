@@ -9,15 +9,14 @@ const Cards = () => {
             {
                 notifications.map((notifications, i)=>{
                   
-                        console.log(notifications.image);
-                    
                     return(
                         <Card 
                         image={notifications.image} 
                         name={notifications.name} 
                         text={notifications.text} 
                         time={notifications.time} 
-                        link={notifications.link}/>
+                        link={notifications.link}
+                        message={notifications.message}/>
                     )
                 })
             }

@@ -19,12 +19,19 @@ const notifications = [
         {  
             image: image2,
             text: "aaaa",
-            time: "Creates website"
+            time: "1m ago"
         },
         { 
             image: image3,
             text: "Web developer",
-            time: "Creates website"
+            time: "Creates website",
+            message: "message"
+        }
+        ,
+        { 
+            image: image3,
+            text: "Web developer",
+            time: "1m ago"
         }
     ]
 

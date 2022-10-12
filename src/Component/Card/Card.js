@@ -3,8 +3,14 @@ import React from 'react';
 import '../../Assets/avatar-angela-gray.webp'
 
 
-export default function Card({image,name,text,time,link}) {
+export default function Card({image,name,text,time,link,message}) {
   
+  function messages(message) {
+    if (message) {
+      return (<h2 className='message'>{message}</h2>)
+    }
+  }
+
 
   return (
         <div className='card'>
