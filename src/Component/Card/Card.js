@@ -16,9 +16,11 @@ export default function Card({image,name,text,time,link,message}) {
         <div className='card'>
             <img alt='profile' src={image} />
             <div>
-                <h1 className='notification-text'>{name} {text} {link}</h1>
+                <h1 className='notification-text'><span className='nickname'>{name}</span> <span className='type-notification'>{text}</span> <span className='link'>{link}</span></h1>
                 <h1 className='time'>{time}</h1>
+                {messages(message)}
             </div>
+           
         </div>
     
   );

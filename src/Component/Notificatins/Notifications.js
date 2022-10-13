@@ -14,24 +14,54 @@ const notifications = [
             name: 'Mark Webber',
             text: "reacted to your recent post",
             link: "MY first tournament today!",
-            time: "1m ago"
+            time: "1m ago",
+            read: false
         },
         {  
-            image: image2,
-            text: "aaaa",
-            time: "1m ago"
+            image: image1,
+            name: 'Angela Gray',
+            text: "followed you",
+            time: "5m ago",
+            read: false
         },
         { 
             image: image3,
-            text: "Web developer",
-            time: "Creates website",
-            message: "message"
+            name: 'Jacob Thompson',
+            text: "has joined your group",
+            link: "Chess Club",
+            time: "1 day ago",
+            read: false
         }
         ,
         { 
-            image: image3,
-            text: "Web developer",
-            time: "1m ago"
+            image: image7,
+            name: 'Rizky Hasanuddin',
+            text: "sent you a private message",
+            time: "5 days ago",
+            message: "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+            read: true
+        },
+        { 
+            image: image4,
+            name: 'Kimberly Smith',
+            text: "commented on your picture",
+            time: "1 day ago",
+            read: true
+        },
+        { 
+            image: image6,
+            name: 'Nathan Peterson',
+            text: "reacted to your recent post 5 end-game strategies to increase your win rate",
+            time: "2 weeks ago",
+            read: true
+        },
+        { 
+            image: image2,
+            name: 'Anna Kim',
+            text: "left the group",
+            link: "Chess Club",
+            time: "2 weeks ago",
+            read: true
         }
     ]
 
