@@ -6,7 +6,7 @@ import image4 from '../../Assets/avatar-kimberly-smith.webp'
 import image5 from '../../Assets/avatar-mark-webber.webp'
 import image6 from '../../Assets/avatar-nathan-peterson.webp'
 import image7 from '../../Assets/avatar-rizky-hasanuddin.webp'
-
+import content1 from '../../Assets/image-chess.webp'
 
 const notifications = [
         {
@@ -46,6 +46,7 @@ const notifications = [
             name: 'Kimberly Smith',
             text: "commented on your picture",
             time: "1 day ago",
+            content: content1,
             read: true
         },
         { 

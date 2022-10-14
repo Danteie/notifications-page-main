@@ -39,3 +39,11 @@
 .link{
     color: blue;
 }
+
+.link:hover{
+   cursor: pointer;
+}
+
+.content{
+    margin-left: auto;
+}
