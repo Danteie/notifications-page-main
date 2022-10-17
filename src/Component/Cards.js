@@ -17,7 +17,8 @@ const Cards = () => {
                         time={notifications.time} 
                         link={notifications.link}
                         content={notifications.content}
-                        message={notifications.message}/>
+                        message={notifications.message}
+                        read={notifications.read}/>
                     )
                 })
             }

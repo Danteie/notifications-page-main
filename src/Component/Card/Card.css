@@ -17,6 +17,14 @@
     font-size: 1.2rem;
 }
 
+.notification-text::after{
+    content: "";
+    border-radius: 50%;
+	  height: 30px;
+	  width: 30px;
+	  background: #cccccc;
+}
+
 .time{
     font-size: 1rem;
 }
@@ -26,6 +34,7 @@
     border: 1px solid black;
     text-align:justify;
     padding: 1rem;
+    margin: 1rem 1rem 1rem 0;
 }
 
 .nickname{
