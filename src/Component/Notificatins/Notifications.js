@@ -52,7 +52,8 @@ const notifications = [
         { 
             image: image6,
             name: 'Nathan Peterson',
-            text: "reacted to your recent post 5 end-game strategies to increase your win rate",
+            text: "reacted to your recent post",
+            link: "5 end-game strategies to increase your win rate",
             time: "2 weeks ago",
             read: true
         },

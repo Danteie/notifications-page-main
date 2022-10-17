@@ -20,10 +20,10 @@ export default function Card({image,name,text,time,link,message,content,read}) {
   function isRead(read){
     if(!read){
       return (
-        <div className='card'>
+        <div className='card-read'>
             <img alt='profile' src={image} />
             <div>
-                <h1 className='notification-read'><span className='nickname'>{name}</span> <span className='type-notification'>{text}</span> <span className='link'>{link}</span></h1>
+                <h1 className='notification-read'><span className='nickname'>{name}</span> <span className='type-notification'>{text}</span> <span><a className='link' href='/'>{link}</a></span></h1>
                 <h1 className='time'>{time}</h1>
                 {messages(message)}
             </div>
@@ -32,10 +32,10 @@ export default function Card({image,name,text,time,link,message,content,read}) {
       )
     }else{
       return(
-        <div className='card'>
+        <div className='card-noRead'>
             <img alt='profile' src={image} />
             <div>
-                <h1 className='notification-notRead'><span className='nickname'>{name}</span> <span className='type-notification'>{text}</span> <span className='link'>{link}</span></h1>
+                <h1 className='notification-notRead'><span className='nickname'>{name}</span> <span className='type-notification'>{text}</span> <span><a className='link' href='/'>{link}</a></span></h1>
                 <h1 className='time'>{time}</h1>
                 {messages(message)}
             </div>
