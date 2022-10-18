@@ -1,9 +1,8 @@
 import './Card.css'
-import React from 'react';
-import '../../Assets/avatar-angela-gray.webp'
 
 
 export default function Card({image,name,text,time,link,message,content,read}) {
+
   
   function messages(message) {
     if (message) {
@@ -18,7 +17,7 @@ export default function Card({image,name,text,time,link,message,content,read}) {
   }
 
   function isRead(read){
-    if(!read){
+    if(!read){  
       return (
         <div className='card-read'>
             <img alt='profile' src={image} />
