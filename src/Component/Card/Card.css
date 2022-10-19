@@ -7,6 +7,7 @@
 }
 
 
+
 .card-read img, .card-noRead img{
     padding: 1rem;
     width: 70px;
@@ -16,6 +17,9 @@
     background-color: hsl(211, 68%, 94%);
 }
 
+.card-read:hover{
+    cursor: pointer;
+}
 
 
 .card-noRead{
@@ -51,8 +55,14 @@
     margin: 1rem 1rem 1rem 0;
 }
 
+.message:hover{
+    cursor: pointer;
+    background-color: hsl(211, 68%, 94%);
+}
+
 .nickname{
-    color: hsl(224, 21%, 14%)
+    color: hsl(224, 21%, 14%);
+    cursor: pointer;
 }
 
 .type-notification{

@@ -16,10 +16,12 @@ export default function Card({image,name,text,time,link,message,content,read}) {
     }
   }
 
+  
+
   function isRead(read){
     if(!read){  
       return (
-        <div className='card-read'>
+        <div  className='card-read'>
             <img alt='profile' src={image} />
             <div>
                 <h1 className='notification-read'><span className='nickname'>{name}</span> <span className='type-notification'>{text}</span> <span><a className='link' href='/'>{link}</a></span></h1>

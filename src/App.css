@@ -33,6 +33,12 @@ header div{
   font-size: 20px
 }
 
-
+button{
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: hsl(219, 14%, 63%);
+}
 
 

@@ -1,12 +1,14 @@
 import './App.css'
 import Cards from '../src/Component/Cards'
 import notifications from './Component/Notificatins/Notifications';
-import { useEffect } from 'react';
-
+import { useState } from 'react';
 
 function App() {
 
-
+  // rerender state
+  const [value, setValue] = useState(0); 
+   
+  
 
   // Notification counter
   function notificationCounter(notifications){
@@ -26,7 +28,10 @@ function App() {
         notifications[index].read = true
       }
     }
+    // use to rerender commponent
+    setValue(value => value + 1);
   }
+
 
 
   return (
@@ -37,7 +42,7 @@ function App() {
               <h1>Notification</h1>
               <h1 className='number'>{notificationCounter(notifications)}</h1>
             </div>
-            <button className='mark' onSubmit={() => markAll(notifications)}>Mark all as read</button>
+            <button className='mark' onClick={() => markAll(notifications)}>Mark all as read</button>
           </header>
           <Cards />
         </div>
