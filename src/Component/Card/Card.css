@@ -85,3 +85,7 @@ a{
 .content{
     margin-left: auto;
 }
+
+.content:hover{
+    cursor: pointer;
+}
